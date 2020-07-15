@@ -7,10 +7,10 @@ from collections import deque
 from functools import partial
 from pathlib import Path
 
-CONSECUTIVE = 2
+CONSECUTIVE = 3
 POINTS = 5
 ACCELERATION = 0.9
-GAMESPEED = 0.25
+GAMESPEED = 0.4
 SIZE = 400
 PIXEL = 25
 MOVE_KEYS = ("Up", "Down", "Left", "Right")
@@ -37,7 +37,7 @@ with open("./state.json", "r") as f:
 
 player_number = int(
     turtle.numinput(
-        "מי אתה?", "\n".join([f"{i + 1}. {p}" for i, p in enumerate(PLAYERS)])
+        "Who is playing?", "\n".join([f"{i + 1}. {p}" for i, p in enumerate(PLAYERS)])
     )
 )
 
