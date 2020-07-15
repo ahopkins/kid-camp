@@ -1,0 +1,35 @@
+{
+    "players": {
+        "player1": {
+            "games": 0,
+            "high_score": 0
+        },
+        "player2": {
+            "games": 0,
+            "high_score": 0
+        },
+        "player3": {
+            "games": 0,
+            "high_score": 0
+        },
+        "player4": {
+            "games": 0,
+            "high_score": 0
+        },
+        "player5": {
+            "games": 0,
+            "high_score": 0
+        },
+        "player6": {
+            "games": 0,
+            "high_score": 0
+        },
+        "player7": {
+            "games": 0,
+            "high_score": 0
+        }
+    },
+    "high_score": 0,
+    "high_score_holder": 0,
+    "last": []
+}
